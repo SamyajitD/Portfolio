@@ -1,0 +1,270 @@
+/* Wood Theme Portfolio - Global Styles */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Root Variables - Wood Theme */
+:root {
+  /* Wood Colors */
+  --wood-darkest: #2C1810;
+  --wood-dark: #3E2723;
+  --wood-medium: #5D4037;
+  --wood-light: #8D6E63;
+  --wood-lighter: #A1887F;
+  --wood-cream: #EFEBE9;
+  --wood-paper: #FAF8F5;
+  --wood-grain: #D7CCC8;
+
+  /* Accent Colors */
+  --accent-amber: #FF8F00;
+  --accent-gold: #FFD54F;
+  --accent-honey: #FFA726;
+  --accent-copper: #BF360C;
+
+  /* Section Theme Colors - Dynamic */
+  --section-hero: linear-gradient(135deg, #5D4037 0%, #3E2723 100%);
+  --section-about: #FAF8F5;
+  --section-experience: linear-gradient(180deg, #4E342E 0%, #3E2723 100%);
+  --section-projects: #EFEBE9;
+  --section-tech: linear-gradient(135deg, #6D4C41 0%, #5D4037 100%);
+  --section-achievements: linear-gradient(135deg, #4E342E 0%, #3E2723 100%);
+
+  /* Typography */
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Spacing */
+  --section-padding: 5rem 2rem;
+  --container-max: 1200px;
+
+  /* Transitions */
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--wood-paper);
+  color: var(--wood-darkest);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+}
+
+h2 {
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+}
+
+h3 {
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+a {
+  color: var(--accent-amber);
+  text-decoration: none;
+  transition: var(--transition-smooth);
+}
+
+a:hover {
+  color: var(--accent-gold);
+}
+
+/* Container */
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Section Base */
+section {
+  padding: var(--section-padding);
+  position: relative;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent-amber), var(--accent-gold));
+  margin: 1rem auto 0;
+  border-radius: 2px;
+}
+
+/* Wood Grain Texture Overlay */
+.wood-grain {
+  position: relative;
+}
+
+.wood-grain::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:
+    repeating-linear-gradient(90deg,
+      transparent,
+      transparent 2px,
+      rgba(0, 0, 0, 0.03) 2px,
+      rgba(0, 0, 0, 0.03) 4px);
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* Button Styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+  border: none;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--accent-amber), var(--accent-honey));
+  color: white;
+  box-shadow: 0 4px 15px rgba(255, 143, 0, 0.3);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 143, 0, 0.4);
+  color: white;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--wood-cream);
+  border: 2px solid var(--wood-cream);
+}
+
+.btn-secondary:hover {
+  background: var(--wood-cream);
+  color: var(--wood-dark);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--wood-dark);
+  border: 2px solid var(--wood-light);
+}
+
+.btn-outline:hover {
+  background: var(--wood-dark);
+  color: var(--wood-cream);
+  border-color: var(--wood-dark);
+}
+
+/* Card Styles */
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 20px rgba(62, 39, 35, 0.08);
+  transition: var(--transition-smooth);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(62, 39, 35, 0.15);
+}
+
+/* Tag/Chip Styles */
+.tag {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  background: var(--wood-grain);
+  color: var(--wood-dark);
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  :root {
+    --section-padding: 3rem 1rem;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+}
+
+/* Smooth Section Transitions */
+section {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--wood-cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--wood-light);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--wood-medium);
+}
+
+/* Selection */
+::selection {
+  background: var(--accent-amber);
+  color: white;
+}
