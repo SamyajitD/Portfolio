@@ -80,9 +80,9 @@
                             </div>
                         {/each}
 
-                        <div class="add-more">
+                        <!-- <div class="add-more">
                             <span>+ Add more achievements in profile.js</span>
-                        </div>
+                        </div> -->
                     </div>
                 {/if}
             </div>
@@ -209,9 +209,9 @@
                             </div>
                         {/each}
 
-                        <div class="add-more">
+                        <!-- <div class="add-more">
                             <span>+ Add more achievements in profile.js</span>
-                        </div>
+                        </div> -->
                     </div>
                 {/if}
             </div>

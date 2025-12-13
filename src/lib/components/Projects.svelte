@@ -75,10 +75,10 @@
             {/each}
 
             <!-- Placeholder for more projects -->
-            <div class="project-placeholder">
+            <!-- <div class="project-placeholder">
                 <div class="placeholder-icon">➕</div>
                 <p>More projects coming soon...</p>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
