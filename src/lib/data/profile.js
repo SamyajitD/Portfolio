@@ -8,7 +8,7 @@ export const profile = {
   email: "samyajitd@gmail.com",
   phone: "+91-9749766904",
   linkedin: "https://linkedin.com/in/samyajit-das",
-  github: "https://github.com/samyajitdas",
+  github: "https://github.com/SamyajitD",
   tagline: "Building scalable systems & solving algorithmic challenges",
   about: `I'm a Computer Science student at IIEST Shibpur with a passion for building efficient, 
 scalable software solutions. My experience spans from cloud infrastructure at Google to 
@@ -70,8 +70,8 @@ export const projects = [
       "Built an intelligent support bot analyzing 2,862 solutions with OpenAI",
       "Achieved 43% reduction in processing time through NLP optimization"
     ],
-    github: "https://github.com/samyajitdas/leethelper",
-    live: "https://leethelper.vercel.app"
+    github: "https://github.com/SamyajitD/leethelper",
+    live: "https://leet-helper.vercel.app"
   }
   // Add more projects here
 ];

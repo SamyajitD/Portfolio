@@ -55,7 +55,7 @@
       <div class="wood-ring ring-2"></div>
       <div class="wood-ring ring-3"></div>
       <div class="profile-photo">
-        <img src="/profile.png" alt={profile.name} />
+        <img src="/profile.jpg" alt={profile.name} />
       </div>
     </div>
   </div>

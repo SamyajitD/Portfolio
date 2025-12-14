@@ -21,14 +21,16 @@ I'm passionate about building efficient, scalable software solutions and tacklin
 ## 💼 Professional Experience
 
 ### Google | Software Engineering Intern
-*May 2025 – Aug 2025 | Karnataka, India*
+
+_May 2025 – Aug 2025 | Karnataka, India_
 
 - Built a **Go + Kubernetes** test framework for cloud billing validation in air-gapped environments
 - **Parallelized test runners** and containerized validation jobs, reducing end-to-end test cycle time by **37%**
 - Executed rigorous billing verification for Google Distributed Cloud with **≤0.001% variance**
 
 ### Friends Transport Company | Freelance MERN Developer
-*Jan 2025 – Feb 2025 | Remote*
+
+_Jan 2025 – Feb 2025 | Remote_
 
 - Shipped a **MERN web app** automating daily fleet transactions, handling **150+ transactions/day**
 - Reduced operational time by **58%** through templated invoices and bulk actions
@@ -39,9 +41,11 @@ I'm passionate about building efficient, scalable software solutions and tacklin
 ## 🏆 Achievements
 
 ### 🥇 Hackathons & Competitions
+
 - **Amazon ML Challenge 2025** - 1st Runner-Up (Ranked 2nd out of 20,000+ teams across India)
 
 ### 💻 Competitive Programming
+
 - **CodeChef**: 5-Star Rating | Max Rating: 2000 | Top 0.7% worldwide
   - 🎯 Global Rank 128/26,000+ in Starters 138
 - **Codeforces**: Expert Title | Max Rating: 1650 | Top 4% worldwide
@@ -50,6 +54,7 @@ I'm passionate about building efficient, scalable software solutions and tacklin
   - 🎯 Global Rank 535 in Biweekly Contest 125
 
 ### 🥉 Coding Contests
+
 - **3rd Place** - AlgoManiac Contest, Convolution 9.0, Jadavpur University
 - **3rd Place** - CyberBlame Contest, IIEST Shibpur
 
@@ -58,6 +63,7 @@ I'm passionate about building efficient, scalable software solutions and tacklin
 ## 🛠️ Tech Stack
 
 ### Languages
+
 ![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -67,6 +73,7 @@ I'm passionate about building efficient, scalable software solutions and tacklin
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
 ### Technologies & Tools
+
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat&logo=spring&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
@@ -81,15 +88,16 @@ I'm passionate about building efficient, scalable software solutions and tacklin
 ## 🎨 Featured Project
 
 ### LeetHelper - LeetCode Similar Problem Suggester
+
 A problem suggestion engine using **cosine similarity** on solution code vectors to recommend similar problems.
 
 - 🤖 Built an intelligent support bot analyzing **2,862 solutions** with OpenAI
 - ⚡ Achieved **43% reduction** in processing time through NLP optimization
 - 🛠️ **Tech Stack**: Python, JavaScript, OpenAI, Tailwind CSS, NLP
 
-🔗 [Live Demo](https://leethelper.vercel.app) | [GitHub](https://github.com/samyajitdas/leethelper)
+🔗 [Live Demo](https://leet-helper.vercel.app) | [GitHub](https://github.com/SamyajitD/leethelper)
 
----
+<!-- ---
 
 ## 📊 GitHub Stats
 
@@ -97,12 +105,12 @@ A problem suggestion engine using **cosine similarity** on solution code vectors
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SamyajitD&layout=compact&theme=tokyonight)
 
----
+--- -->
 
 ## 🤝 Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/samyajit-das)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/samyajitdas)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/SamyajitD)
 [![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=flat&logo=leetcode&logoColor=black)](https://leetcode.com/samyajitdas)
 [![CodeChef](https://img.shields.io/badge/-CodeChef-5B4638?style=flat&logo=codechef&logoColor=white)](https://codechef.com/users/samyajitdas)
 [![Codeforces](https://img.shields.io/badge/-Codeforces-1F8ACB?style=flat&logo=codeforces&logoColor=white)](https://codeforces.com/profile/samyajitdas)
