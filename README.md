@@ -46,11 +46,11 @@ _Jan 2025 – Feb 2025 | Remote_
 
 ### 💻 Competitive Programming
 
-- **CodeChef**: 5-Star Rating | Max Rating: 2000 | Top 0.7% worldwide
-  - 🎯 Global Rank 128/26,000+ in Starters 138
-- **Codeforces**: Expert Title | Max Rating: 1650 | Top 4% worldwide
-  - 🎯 Global Rank 320 in Round 925
-- **LeetCode**: Knight Badge | Max Rating: 1920 | Top 3.82% worldwide
+- **CodeChef**: 5-Star Coder | Max Rating: 2036 | Top 0.7% worldwide
+  - 🎯 Global Rank 43 (div1) out of 26000+ participants in Starters 215
+- **Codeforces**: Expert | Max Rating: 1848 | Top 4% worldwide
+  - 🎯 Global Rank 407 in Codeforces Round 1070 (div 2)
+- **LeetCode**: Knight Badge | Max Rating: 1982 | Top 3.82% worldwide
   - 🎯 Global Rank 535 in Biweekly Contest 125
 
 ### 🥉 Coding Contests
@@ -113,7 +113,7 @@ A problem suggestion engine using **cosine similarity** on solution code vectors
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/SamyajitD)
 [![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=flat&logo=leetcode&logoColor=black)](https://leetcode.com/samyajitdas)
 [![CodeChef](https://img.shields.io/badge/-CodeChef-5B4638?style=flat&logo=codechef&logoColor=white)](https://codechef.com/users/samyajitdas)
-[![Codeforces](https://img.shields.io/badge/-Codeforces-1F8ACB?style=flat&logo=codeforces&logoColor=white)](https://codeforces.com/profile/samyajitdas)
+[![Codeforces](https://img.shields.io/badge/-Codeforces-1F8ACB?style=flat&logo=codeforces&logoColor=white)](https://codeforces.com/profile/samyajit125)
 [![Email](https://img.shields.io/badge/-Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:samyajitd@gmail.com)
 
 ---

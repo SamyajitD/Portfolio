@@ -120,24 +120,24 @@ export const achievements = {
   competitiveProgramming: [
     {
       platform: "CodeChef",
-      achievement: "5-Star Rating",
-      detail: "Maximum rating of 2000, top 0.7% worldwide",
-      highlight: "Global Rank 128/26000+ in Starters 138",
+      achievement: "5-Star Coder",
+      detail: "Maximum rating of 2036, top 0.7% worldwide",
+      highlight: "Global Rank 43 (div1) out of 26000+ participants in Starters 215",
       link: "https://codechef.com/users/samyajitdas",
       icon: "⭐"
     },
     {
       platform: "Codeforces",
-      achievement: "Expert Title",
-      detail: "Top 4% worldwide with max rating 1650",
-      highlight: "Global Rank 320 in Round 925 (6 problems in 135 min)",
-      link: "https://codeforces.com/profile/samyajitdas",
+      achievement: "Expert",
+      detail: "Top 3% worldwide with max rating 1848",
+      highlight: "Global Rank 407 in Codeforces Round 1070 (div 2) (4 problems in 57 min)",
+      link: "https://codeforces.com/profile/samyajit125",
       icon: "🎯"
     },
     {
       platform: "LeetCode",
       achievement: "Knight Badge",
-      detail: "Top 3.82% worldwide with max rating 1920",
+      detail: "Top 3.82% worldwide with max rating 1982",
       highlight: "Global Rank 535 in Biweekly Contest 125",
       link: "https://leetcode.com/samyajitdas",
       icon: "⚔️"

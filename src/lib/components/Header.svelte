@@ -107,7 +107,7 @@
     list-style: none;
   }
 
-  .nav-links a {
+  .nav-links a:not(.btn) {
     color: var(--wood-cream);
     font-weight: 500;
     font-size: 0.9rem;

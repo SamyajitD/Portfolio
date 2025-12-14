@@ -1,7 +1,7 @@
 /* Wood Theme Portfolio - Global Styles */
 
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap");
 
 /* CSS Reset */
 *,
@@ -15,32 +15,32 @@
 /* Root Variables - Wood Theme */
 :root {
   /* Wood Colors */
-  --wood-darkest: #2C1810;
-  --wood-dark: #3E2723;
-  --wood-medium: #5D4037;
-  --wood-light: #8D6E63;
-  --wood-lighter: #A1887F;
-  --wood-cream: #EFEBE9;
-  --wood-paper: #FAF8F5;
-  --wood-grain: #D7CCC8;
+  --wood-darkest: #2c1810;
+  --wood-dark: #3e2723;
+  --wood-medium: #5d4037;
+  --wood-light: #8d6e63;
+  --wood-lighter: #a1887f;
+  --wood-cream: #efebe9;
+  --wood-paper: #faf8f5;
+  --wood-grain: #d7ccc8;
 
   /* Accent Colors */
-  --accent-amber: #FF8F00;
-  --accent-gold: #FFD54F;
-  --accent-honey: #FFA726;
-  --accent-copper: #BF360C;
+  --accent-amber: #ff8f00;
+  --accent-gold: #ffd54f;
+  --accent-honey: #ffa726;
+  --accent-copper: #bf360c;
 
   /* Section Theme Colors - Dynamic */
-  --section-hero: linear-gradient(135deg, #5D4037 0%, #3E2723 100%);
-  --section-about: #FAF8F5;
-  --section-experience: linear-gradient(180deg, #4E342E 0%, #3E2723 100%);
-  --section-projects: #EFEBE9;
-  --section-tech: linear-gradient(135deg, #6D4C41 0%, #5D4037 100%);
-  --section-achievements: linear-gradient(135deg, #4E342E 0%, #3E2723 100%);
+  --section-hero: linear-gradient(135deg, #5d4037 0%, #3e2723 100%);
+  --section-about: #faf8f5;
+  --section-experience: linear-gradient(180deg, #4e342e 0%, #3e2723 100%);
+  --section-projects: #efebe9;
+  --section-tech: linear-gradient(135deg, #6d4c41 0%, #5d4037 100%);
+  --section-achievements: linear-gradient(135deg, #4e342e 0%, #3e2723 100%);
 
   /* Typography */
-  --font-heading: 'Playfair Display', Georgia, serif;
-  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-heading: "Playfair Display", Georgia, serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
 
   /* Spacing */
   --section-padding: 5rem 2rem;
@@ -122,7 +122,7 @@ section {
 }
 
 .section-title::after {
-  content: '';
+  content: "";
   display: block;
   width: 60px;
   height: 3px;
@@ -137,18 +137,19 @@ section {
 }
 
 .wood-grain::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-image:
-    repeating-linear-gradient(90deg,
-      transparent,
-      transparent 2px,
-      rgba(0, 0, 0, 0.03) 2px,
-      rgba(0, 0, 0, 0.03) 4px);
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.03) 2px,
+    rgba(0, 0, 0, 0.03) 4px
+  );
   pointer-events: none;
   opacity: 0.5;
 }
@@ -159,7 +160,7 @@ section {
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
-  border-radius: 8px;
+  border-radius: 24px;
   font-weight: 500;
   font-size: 0.9rem;
   cursor: pointer;
