@@ -12,7 +12,7 @@ I'm passionate about building efficient, scalable software solutions and tacklin
 
 - 💼 Currently working as a **Software Engineering Intern at Google** (GDC Air-Gapped)
 - 🏆 **1st Runner-Up** at Amazon ML Challenge 2025 (Ranked 2nd out of 20,000 teams)
-- ⭐ **5-Star** rated on CodeChef | **Expert** on Codeforces | **Knight** on LeetCode
+- ⭐ **5-Star** rated on CodeChef | **Candidate Master** on Codeforces | **Knight** on LeetCode
 - 🌐 Check out my portfolio: [Portfolio Website](https://yourportfolio.com) <!-- Add your deployed link -->
 - 📫 Reach me at: **samyajitd@gmail.com**
 
@@ -46,12 +46,12 @@ _Jan 2025 – Feb 2025 | Remote_
 
 ### 💻 Competitive Programming
 
-- **CodeChef**: 5-Star Coder | Max Rating: 2036 | Top 0.7% worldwide
+- **CodeChef**: 5-Star Coder | Max Rating: 2057 | Top 0.7% worldwide
   - 🎯 Global Rank 43 (div1) out of 26000+ participants in Starters 215
-- **Codeforces**: Expert | Max Rating: 1848 | Top 4% worldwide
+- **Codeforces**: Candidate Master | Max Rating: 1910 | Top 3% worldwide
   - 🎯 Global Rank 407 in Codeforces Round 1070 (div 2)
-- **LeetCode**: Knight Badge | Max Rating: 1982 | Top 3.82% worldwide
-  - 🎯 Global Rank 535 in Biweekly Contest 125
+- **LeetCode**: Knight Badge | Max Rating: 2036 | Top 2.07% worldwide
+  - 🎯 Global Rank 419 in Weekly Contest 480
 
 ### 🥉 Coding Contests
 

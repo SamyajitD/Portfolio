@@ -13,7 +13,7 @@ export const profile = {
   about: `I'm a Computer Science student at IIEST Shibpur with a passion for building efficient, 
 scalable software solutions. My experience spans from cloud infrastructure at Google to 
 full-stack web development. I thrive on competitive programming challenges and have 
-achieved top rankings on major platforms including CodeChef (5-star), Codeforces (Expert), 
+achieved top rankings on major platforms including CodeChef (5-star), Codeforces (Candidate Master), 
 and LeetCode (Knight).`
 };
 
@@ -121,15 +121,15 @@ export const achievements = {
     {
       platform: "CodeChef",
       achievement: "5-Star Coder",
-      detail: "Maximum rating of 2036, top 0.7% worldwide",
+      detail: "Maximum rating of 2057, top 0.7% worldwide",
       highlight: "Global Rank 43 (div1) out of 26000+ participants in Starters 215",
       link: "https://codechef.com/users/samyajitdas",
       icon: "⭐"
     },
     {
       platform: "Codeforces",
-      achievement: "Expert",
-      detail: "Top 3% worldwide with max rating 1848",
+      achievement: "Candidate Master",
+      detail: "Top 3% worldwide with max rating 1910",
       highlight: "Global Rank 407 in Codeforces Round 1070 (div 2) (4 problems in 57 min)",
       link: "https://codeforces.com/profile/samyajit125",
       icon: "🎯"
@@ -137,8 +137,8 @@ export const achievements = {
     {
       platform: "LeetCode",
       achievement: "Knight Badge",
-      detail: "Top 3.82% worldwide with max rating 1982",
-      highlight: "Global Rank 535 in Biweekly Contest 125",
+      detail: "Top 2.07% worldwide with max rating 2057",
+      highlight: "Global Rank 419 in Weekly Contest 480",
       link: "https://leetcode.com/samyajitdas",
       icon: "⚔️"
     }

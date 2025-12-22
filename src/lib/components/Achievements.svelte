@@ -135,8 +135,11 @@
                     <h4>{item.platform}</h4>
                     <span
                       class="cp-badge"
-                      class:rank-blue={["Expert", "Knight"].some((rank) =>
+                      class:rank-blue={["Knight"].some((rank) =>
                         item.achievement.includes(rank)
+                      )}
+                      class:rank-purple={item.achievement.includes(
+                        "Candidate Master"
                       )}>{item.achievement}</span
                     >
                   </div>
@@ -387,6 +390,11 @@
   .cp-badge.rank-blue {
     background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
     color: #1a1a1a;
+  }
+
+  .cp-badge.rank-purple {
+    background: linear-gradient(135deg, #aa00aa 0%, #cc77ff 100%);
+    color: #ffffff;
   }
 
   .item-highlight {
